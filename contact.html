@@ -34,9 +34,10 @@
         <div class="contact-container">
             <form class="contact-form" data-testid="test-contact-form" novalidate>
                 <div class="form-group">
-                    <label for="full-name">Full Name *</label>
+                    <label for="full-name">Full Name</label>
                     <input 
                         type="text" 
+                        placeholder="Enter your full-name"
                         id="full-name" 
                         name="fullName" 
                         data-testid="test-contact-name"
@@ -48,9 +49,10 @@
                 </div>
 
                 <div class="form-group">
-                    <label for="email">Email Address *</label>
+                    <label for="email">Email Address</label>
                     <input 
                         type="email" 
+                        placeholder="youremail@example.com"
                         id="email" 
                         name="email" 
                         data-testid="test-contact-email"
@@ -62,7 +64,7 @@
                 </div>
 
                 <div class="form-group">
-                    <label for="subject">Subject *</label>
+                    <label for="subject">Subject</label>
                     <input 
                         type="text" 
                         id="subject" 
@@ -76,7 +78,7 @@
                 </div>
 
                 <div class="form-group">
-                    <label for="message">Message *</label>
+                    <label for="message">Message</label>
                     <textarea 
                         id="message" 
                         name="message" 
@@ -116,11 +118,11 @@
                 <div class="contact-methods">
                     <div class="contact-method">
                         <h4>Email</h4>
-                        <p>ayanfeoluwa@example.com</p>
+                        <p>hello.oluwagbemiga@gmail.com</p>
                     </div>
                     <div class="contact-method">
                         <h4>Location</h4>
-                        <p>Lagos, Nigeria</p>
+                        <p>Oyo State, Nigeria</p>
                     </div>
                     <div class="contact-method">
                         <h4>Response Time</h4>
@@ -149,7 +151,7 @@
                         >
                             GitHub
                         </a>
-                        <!-- <a 
+                        <a 
                             href="https://twitter.com/ayanfeoluwa-popola" 
                             target="_blank" 
                             rel="noopener noreferrer"
@@ -157,7 +159,16 @@
                             aria-label="Connect on Twitter"
                         >
                             Twitter
-                        </a> -->
+                        </a>
+                        <a 
+                            href="https://twitter.com/ayanfeoluwa-popola" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            data-testid="test-contact-social-twitter"
+                            aria-label="Connect on Facebook"
+                        >
+                            Facebook
+                        </a>
                     </div>
                 </div>
             </div>
@@ -168,7 +179,7 @@
     <footer class="main-footer" data-testid="test-main-footer">
         <div class="footer-content">
             <div class="footer-brand">
-                <h3>BelovethDev</h3>
+                <a href="index.html" class="logo" data-testid="test-nav-logo"><img src="image/Logo.png" alt=""></a>
                 <p>Creating beautiful, accessible, and performant web experiences that solve real-world problems through clean code and thoughtful design.</p>
             </div>
             
@@ -204,7 +215,7 @@
         </div>
         
         <div class="footer-bottom">
-            <p>&copy; 2024 BelovethDev. All rights reserved. | Built with 💜 and clean code</p>
+            <p>&copy; 2025 BelovethDev. All rights reserved. | Built with and clean code</p>
         </div>
     </footer>
     <script src="script.js"></script>
